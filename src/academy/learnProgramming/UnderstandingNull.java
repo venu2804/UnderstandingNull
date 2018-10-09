@@ -14,11 +14,13 @@ public class UnderstandingNull {
 
         Object myLocalObject = new Object();
         Object myAnotherLocalObject;
+        String name = "Java";
 
 
         System.out.println("MyObject = " + myObject);
         System.out.println("My Other object =" + myOtherObject);
         System.out.println("MY INT = " + myInt);
+        System.out.println("MY STRING = " + name);
 
 
         System.out.println("My Local objetct = " + myLocalObject);
